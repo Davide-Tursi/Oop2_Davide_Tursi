@@ -9,33 +9,33 @@
 // Tutte le classi dovranno implementare il metodo astratto chiamato: getMyCategory() che mostri a schermo il valore relativo.
 // Pushare su GitHub con nome php_12_nome_cognome
 
-abstract class Categoria{
+abstract class Category{
 
     abstract public function getMyCategory();
 }
 
-class Attualita extends Categoria{
+class Attualita extends Category{
 
     public function getMyCategory(){
         echo "Categoria: Attualità\n";
     }
 
 }
-class Sport extends Categoria{
+class Sport extends Category{
 
     public function getMyCategory(){
         echo "Categoria: Sport\n";
     }
 
 }
-class Gossip extends Categoria{
+class Gossip extends Category{
 
     public function getMyCategory(){
         echo "Categoria: Gossip\n";
     }
 
 }
-class Storia extends Categoria{
+class Storia extends Category{
 
     public function getMyCategory(){
         echo "Categoria: Storia\n";
